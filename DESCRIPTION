@@ -8,3 +8,6 @@ Description: Lab functions we use in MATH4753.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.2.3
+URL: https://github.com/Karly1234/MATH4753meek0035
+BugReports: https://github.com/Karly1234/MATH4753meek0035/issues
