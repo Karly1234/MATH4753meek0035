@@ -1,0 +1,10 @@
+Package: MATH4753meek0035
+Type: Package
+Title: MATH4753 Functions
+Version: 0.1.0
+Author: Karly Meeks
+Maintainer: Karly Meeks <karlyrose0309@gmail.com>
+Description: Lab functions we use in MATH4753.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
