@@ -1,0 +1,61 @@
+---
+title: "R Package Demo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{R Package Demo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753meek0035)
+```
+
+# Introduction
+
+I am showing Dr, Steward that I have a correctly working package by making a vignette that uses the functions I have made in my package, MATH4753meek0035.
+
+## fire data set
+```{r}
+# Load the dataset
+data("fire")
+# Perform analysis or demonstrate how to use the dataset
+head(fire)
+
+```
+
+## findzofData
+
+
+```{r}
+# Load the dataset
+findzOfData(fire$DAMAGE)
+```
+
+## ntickets
+
+```{r}
+ntickets(205, .02, .95)
+```
+
+## myci
+
+```{r}
+myci(fire$DISTANCE)
+```
+## myncurve
+
+```{r}
+myncurve(10,5,6)
+```
+
+
+
+
